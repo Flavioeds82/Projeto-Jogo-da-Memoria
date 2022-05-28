@@ -9,7 +9,7 @@ import pão from '../assets/pão.png';
 import relogio from '../assets/relogio.png';
 import trator from '../assets/trator.png';
 
-export const item = [
+export const items = [
    {name: 'batata', icon: 'batata'},
    {name: 'betoneira', icon: 'betoneira'},
    {name: 'garçon', icon: 'garçon'},

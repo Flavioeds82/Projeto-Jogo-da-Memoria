@@ -54,10 +54,15 @@
 .button:hover{
   background-color: #9045d6;
 }
-.grid{
+.grid-container{
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.grid{
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 .footer{
   position: absolute;
