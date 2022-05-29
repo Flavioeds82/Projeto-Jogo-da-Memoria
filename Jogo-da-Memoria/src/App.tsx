@@ -57,7 +57,7 @@ function App() {
               }
               setGridItems(temp);
               setTurns(0);
-            }, 1000)
+            }, 500)
           }
           setCount(count + 1)
         }
