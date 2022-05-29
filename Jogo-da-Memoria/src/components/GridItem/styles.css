@@ -1,0 +1,33 @@
+#container-items{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+   padding: 20px;
+   cursor: pointer;
+   transition: all ease 0.5s;
+}
+
+   
+#items2{
+   max-width: 100px;
+   max-height: 100px;
+   position: relative;
+   border-radius: 20px;
+   transition: all ease 0.5s;
+}
+#items2:hover{
+  
+   top:-2px;
+   box-shadow:1px 2px 3px #100E51;
+
+}
+#items1{
+   max-width: 100px;
+   max-height: 100px;
+   position: relative;
+   background-color: rgba(255,255,255,0.7);
+   border-radius: 20px;
+   transition: all ease 0.5s;
+}
