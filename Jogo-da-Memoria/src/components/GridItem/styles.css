@@ -31,3 +31,20 @@
    border-radius: 20px;
    transition: all ease 0.5s;
 }
+@media(max-width: 400px){
+   #container-items{
+      
+      padding:0px;
+     
+   }
+   #items1{
+      max-width: 80px;
+      max-height: 80px;
+   }
+   #items2{
+      max-width: 70px;
+      max-height: 70px;
+      
+   }
+
+   }
