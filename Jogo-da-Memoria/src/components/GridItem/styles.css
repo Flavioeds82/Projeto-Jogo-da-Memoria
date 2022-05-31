@@ -33,13 +33,15 @@
 }
 @media(max-width: 400px){
    #container-items{
-      
-      padding:0px;
      
+      width: 70px;
+      height: 70px;
+      padding: 10px;
+      
    }
    #items1{
-      max-width: 80px;
-      max-height: 80px;
+      max-width: 70px;
+      max-height: 70px;
    }
    #items2{
       max-width: 70px;
